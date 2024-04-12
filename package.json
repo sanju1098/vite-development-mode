@@ -1,0 +1,31 @@
+{
+	"name": "vite-ui",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"build:dev": "vite build --mode development --config vite.config.dev.ts",
+		"dev:start": "vite --mode development --config vite.config.dev.ts",
+		"build:qa": "vite build --mode test --config vite.config.qa.ts",
+		"qa:start": "vite --mode test --config vite.config.qa.ts",
+		"build:prod": "vite build --mode production --config vite.config.prod.ts",
+		"prod:start": "vite --mode production --config vite.config.prod.ts"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.7",
+		"@types/react": "^18.2.66",
+		"@types/react-dom": "^18.2.22",
+		"@typescript-eslint/eslint-plugin": "^7.2.0",
+		"@typescript-eslint/parser": "^7.2.0",
+		"@vitejs/plugin-react": "^4.2.1",
+		"eslint": "^8.57.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.6",
+		"typescript": "^5.2.2",
+		"vite": "^5.2.0"
+	}
+}
