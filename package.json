@@ -4,6 +4,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
+		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"build:dev": "vite build --mode dev --config vite.config.ts",
 		"dev:start": "vite --mode dev --config vite.config.ts",
 		"build:qa": "vite build --mode qa --config vite.config.ts",
