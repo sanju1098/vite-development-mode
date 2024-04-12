@@ -4,12 +4,12 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"build:dev": "vite build --mode development --config vite.config.dev.ts",
-		"dev:start": "vite --mode development --config vite.config.dev.ts",
-		"build:qa": "vite build --mode test --config vite.config.qa.ts",
-		"qa:start": "vite --mode test --config vite.config.qa.ts",
-		"build:prod": "vite build --mode production --config vite.config.prod.ts",
-		"prod:start": "vite --mode production --config vite.config.prod.ts"
+		"build:dev": "vite build --mode dev --config vite.config.ts",
+		"dev:start": "vite --mode dev --config vite.config.ts",
+		"build:qa": "vite build --mode qa --config vite.config.ts",
+		"qa:start": "vite --mode qa --config vite.config.ts",
+		"build:prod": "vite build --mode prod --config vite.config.ts",
+		"prod:start": "vite --mode prod --config vite.config.ts"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
